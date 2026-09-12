@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Remindly</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --text: #1F2937;
+            --muted: #4B5563;
+            --bg: #F9FAFB;
+            --card: #FFFFFF;
+            --border: #E5E7EB;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card);
+            padding: 36px 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: var(--text);
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 12px;
+            color: var(--muted);
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+            color: var(--muted);
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background-color: #EEF2FF;
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Remindly</h1>
+        <p class="last-updated">Effective Date: March 2026</p>
+
+        <p>Welcome to <strong>Remindly</strong> ("we", "our", or "us"). We respect your privacy and are committed to protecting any information associated with your use of our mobile application.</p>
+
+        <h2>1. Information We Collect and Store</h2>
+        <p>Remindly is designed with privacy at its core:</p>
+        <ul>
+            <li><strong>Reminder & Task Data:</strong> All your reminders, notes, dates, and times are stored <em>locally on your device</em> using a local SQLite database. We do not transmit, sync, or store your reminders on external servers.</li>
+            <li><strong>Device Settings & Preferences:</strong> App preferences (such as theme and notification options) are saved locally on your device.</li>
+        </ul>
+
+        <h2>2. Device Permissions Used</h2>
+        <p>To provide core reminder and alarm functionality, the app requests the following Android permissions:</p>
+        <ul>
+            <li><strong>Notifications (POST_NOTIFICATIONS):</strong> Used solely to display your scheduled reminder alerts and notifications.</li>
+            <li><strong>Exact Alarms (SCHEDULE_EXACT_ALARM / USE_EXACT_ALARM):</strong> Required to ring reminders and trigger notifications at the exact scheduled minute.</li>
+            <li><strong>Boot Completed (RECEIVE_BOOT_COMPLETED):</strong> Ensures your scheduled reminders are automatically restored whenever you restart your device.</li>
+            <li><strong>Vibration & Wake Lock:</strong> Used to alert you and turn on the screen briefly when a scheduled alarm rings.</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>The app may use third-party libraries that collect anonymous technical data for ads and payments:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> May collect anonymous identifiers (such as Advertising ID), crash logs, and general diagnostic information to serve personalized or non-personalized advertisements. Please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+            <li><strong>Google Play In-App Billing:</strong> Handles in-app purchases securely through your Google Play account. Remindly does not receive or store your credit card or financial credentials.</li>
+        </ul>
+
+        <h2>4. Data Retention and Security</h2>
+        <p>Since your reminders are stored locally on your device, you have complete control over your data. If you clear the app's cache/storage or uninstall the application, all locally saved reminders will be permanently deleted.</p>
+
+        <h2>5. Children's Privacy</h2>
+        <p>Remindly does not knowingly collect any personally identifiable information from children under the age of 13.</p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+
+        <h2>7. Contact Us</h2>
+        <div class="contact-box">
+            <p>If you have any questions or suggestions regarding this Privacy Policy, please feel free to reach out to us at:</p>
+            <p><strong>Email:</strong> your-email@example.com</p>
+        </div>
+    </div>
+</body>
+</html>
